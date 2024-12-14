@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in a simple Java counter class. The Counter class has an increment method that is not thread-safe, resulting in incorrect counts when multiple threads access it concurrently. The solution shows how to fix this issue by using the synchronized keyword or java.util.concurrent.atomic.AtomicInteger.
